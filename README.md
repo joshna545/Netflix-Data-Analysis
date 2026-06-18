@@ -20,7 +20,7 @@ Data Analytics project showcasing data cleaning, EDA, KPI reporting, and interac
 ### Page 2 — Dashboard page 2
 ![Dashboard Page 2]( DASHBOARD_SCREENSHOT_2.png)
 
-> 💡 *To add your screenshots: create an `images/` folder in your repo and upload your `.png` files with the same names above.*
+
 
 ---
 
@@ -141,13 +141,18 @@ Built interactive Power BI dashboards featuring:
 
 ## 🔍 Key Business Insights
 
+
 ### 🎥 Content Type Distribution
-- Movies account for the majority of Netflix content.
-- TV Shows have shown consistent growth over recent years.
+- Movies make up 69% of Netflix content vs 31% TV Shows
+- TV Show count has grown steadily since 2016
 
 ### 🌎 Geographic Insights
-- The United States contributes the highest number of titles.
-- Content production is concentrated among a few major countries.
+- USA, India, and UK are the top 3 content producing countries
+- USA alone contributes over 35% of all titles
+
+### 📅 Release Trends
+- Content additions peaked in 2019 with 1,147 titles
+- Netflix added 3x more content in 2019 compared to 2016
 
 ### 🎭 Genre Insights
 - Drama and Comedy are among the most dominant genres.
@@ -157,9 +162,7 @@ Built interactive Power BI dashboards featuring:
 - Most content falls under mature audience ratings (TV-MA, TV-14).
 - Family and children's content represent a smaller proportion.
 
-### 📅 Release Trends
-- Significant increase in content additions after 2018.
-- Netflix has aggressively expanded its content library in recent years.
+
 
 ---
 
@@ -183,7 +186,7 @@ Built interactive Power BI dashboards featuring:
 Netflix-Data-Analysis/
 │
 ├── NETFLIX ANALYSIS.pbix     # Power BI Dashboard file
-├── Netflix_2016_2025.csv.csv
+├── Netflix_2016_2025.csv
           # Raw dataset
 ├── netflix_queries.sql        # SQL Analysis queries
 ├── images/
